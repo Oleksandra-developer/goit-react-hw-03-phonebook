@@ -1,0 +1,24 @@
+.addForm {
+  display: flex;
+  align-items: baseline;
+  width: 650px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.addForm input {
+  margin-left: 10px;
+  padding: 5px;
+}
+.addForm label {
+  margin-right: 20px;
+}
+.addForm button {
+  width: 75px;
+  padding: 5px;
+  cursor: pointer;
+}
+.addForm button:hover,
+.addForm button:focus {
+  background-color: rgb(147, 147, 235);
+}
